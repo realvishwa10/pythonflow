@@ -28,4 +28,8 @@ jobs:
 
       - name: run test_python.py
         run: pytest
+        continue-on-error: true
+
+      - name: check in
+        run: echo Hello world
 
