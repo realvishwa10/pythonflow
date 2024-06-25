@@ -25,3 +25,7 @@ jobs:
  
       - name: install python required packages
         run: pip install -r requirements.txt
+
+      - name: run test_python.py
+        run: pytest
+
