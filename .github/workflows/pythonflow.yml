@@ -45,7 +45,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.vishwa800 }}
-          password: ${{ secrets.dckr_pat_2YjxidMeCC5XjI_xsd4sKVcsTF8 }}
+          password: ${{ secrets.good }}
  
       - name: push docker image into docker hub
         run: docker push vishwa800/pydockerimage
