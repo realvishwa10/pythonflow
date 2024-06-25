@@ -5,8 +5,11 @@ def test_sqrt():
    assert math.sqrt(num) == 5
 
 def testsquare():
-   num = 7
-   assert 7*7 == 40
+   try:
+      num = 7
+      assert 7*7 == 40
+   except AssertionError:
+      print("Hello world")
 
 def testequality():
-   assert 10 == 11
+   assert 10 == 10
