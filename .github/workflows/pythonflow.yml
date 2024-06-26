@@ -32,7 +32,7 @@ jobs:
 
       - name: check in
         run: echo Hello world
-        
+
       - run: |
           set -x
           docker version
