@@ -9,7 +9,6 @@ on:
 jobs:
   python_job1:
     runs-on: self-hosted
-    
     # Whatever mentioned under steps will be performed sequentially
     steps:
       - name: checkout repository
