@@ -32,10 +32,7 @@ jobs:
 
       - name: check in
         run: echo Hello world
-
-      - name: dockerenv_setup
-        uses: docker-practice/actions-setup-docker@master
-        timeout-minutes: 12
+        
       - run: |
           set -x
           docker version
